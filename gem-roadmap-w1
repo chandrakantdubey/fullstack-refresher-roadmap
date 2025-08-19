@@ -1,0 +1,127 @@
+## Week 1: Frontend Fundamentals & Modern CSS
+
+**Project of the Week:** A fully responsive, multi-page personal portfolio website.
+
+**Key Concepts:** Semantic HTML, Responsive Design, Utility-First CSS, DOM Manipulation, Version Control, DRY Principle.
+
+-----
+
+### **Day 1: HTML5 & Git/GitHub Setup**
+
+  * **Today's Goal:** Structure the content of your website and set up version control.
+  * **Topics:**
+      * **HTML5:** Learn the importance of semantic tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`). Understand how to structure a document for both browsers and accessibility. Learn about forms (`<form>`, `<input>`, `<textarea>`, `<button>`).
+      * **Git & GitHub:** Understand the basics of version control. Learn the core commands: `git init`, `git add`, `git commit`, and `git push`.
+  * **Tasks:**
+    1.  **Setup:** Install VS Code and essential extensions like "Live Server" and "Prettier".
+    2.  **HTML Structure:** Create the HTML files for a three-page portfolio: `index.html` (Home), `about.html`, and `contact.html`. Use semantic tags to define the layout for each page.
+    3.  **Version Control:**
+          * Initialize a new Git repository in your project folder.
+          * Create a new repository on GitHub.
+          * Make your first commit with the initial HTML structure and push it to your GitHub repository.
+  * **Learning Resources:**
+      * [MDN - Introduction to HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+      * [Git - The Simple Guide](https://rogerdudler.github.io/git-guide/)
+
+-----
+
+### **Day 2: Core CSS & The Box Model**
+
+  * **Today's Goal:** Apply basic styling and understand how elements are positioned on a page.
+  * **Topics:**
+      * **CSS Fundamentals:** Selectors (class, ID, element), specificity, and the cascade.
+      * **The Box Model:** Deeply understand `margin`, `border`, `padding`, and `content`.
+      * **Layout:** Learn the `display` property (`block`, `inline`, `flex`).
+  * **Tasks:**
+    1.  Create a `style.css` file and link it to your HTML pages.
+    2.  Style the basic typography and color scheme.
+    3.  Use **Flexbox** to create a responsive navigation bar.
+    4.  Arrange the main content sections using the box model and display properties. Don't worry about perfection; focus on understanding the concepts.
+  * **Learning Resources:**
+      * [MDN - CSS First Steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+      * [CSS-Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+-----
+
+### **Day 3: Introduction to Tailwind CSS**
+
+  * **Today's Goal:** Transition from traditional CSS to a modern, utility-first framework.
+  * **Topics:**
+      * **Utility-First CSS:** Understand the "why" behind Tailwind CSS.
+      * **Setup:** Learn how to add Tailwind to a project using the CDN for simplicity.
+      * **Core Concepts:** Spacing, colors, typography, and sizing using utility classes.
+  * **Tasks:**
+    1.  Add the Tailwind CSS CDN link to your HTML files.
+    2.  **Refactor:** Re-style the navigation bar from Day 2 using only Tailwind classes.
+    3.  Style the "Home" page, focusing on converting your previous CSS ideas into Tailwind utilities.
+  * **Learning Resources:**
+      * [Tailwind CSS Docs: Play CDN](https://tailwindcss.com/docs/installation/play-cdn)
+      * [Tailwind CSS Docs: Core Concepts](https://tailwindcss.com/docs/utility-first)
+
+-----
+
+### **Day 4: Responsive Design with Tailwind CSS**
+
+  * **Today's Goal:** Make your website look great on all devices, from mobile phones to desktops.
+  * **Topics:**
+      * **Responsive Prefixes:** Master Tailwind's responsive helpers (`sm:`, `md:`, `lg:`, `xl:`).
+      * **Mobile-First Approach:** Learn to style for mobile first, then add classes for larger screens.
+  * **Tasks:**
+    1.  Complete the styling for the `about.html` and `contact.html` pages using Tailwind.
+    2.  Apply responsive classes to ensure every element adapts correctly to different screen sizes. Test this by resizing your browser window.
+    3.  **Challenge:** Add a dark mode toggle using Tailwind's `dark:` variant.
+  * **Learning Resources:**
+      * [Tailwind CSS Docs: Responsive Design](https://tailwindcss.com/docs/responsive-design)
+      * [Tailwind CSS Docs: Dark Mode](https://tailwindcss.com/docs/dark-mode)
+
+-----
+
+### **Day 5: JavaScript Fundamentals & DOM Manipulation**
+
+  * **Today's Goal:** Breathe life into your static pages with interactivity.
+  * **Topics:**
+      * **JavaScript Basics (ES6+):** Variables (`let`, `const`), data types, functions (including arrow functions).
+      * **DOM Manipulation:** Selecting elements (`querySelector`) and modifying them (changing text, adding/removing classes).
+      * **Event Handling:** Listening for user actions like clicks and form submissions.
+  * **Tasks:**
+    1.  Create a `script.js` file and link it to your HTML.
+    2.  Implement a "mobile menu" that appears when a hamburger icon is clicked on small screens.
+    3.  Add basic client-side validation to your contact form (e.g., check if the email field is not empty before submission).
+  * **Learning Resources:**
+      * [JavaScript.info - The Modern JavaScript Tutorial](https://javascript.info/)
+      * [MDN - Manipulating Documents](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
+
+-----
+
+### **Day 6: Refactoring & Code Quality**
+
+  * **Today's Goal:** Clean up your code and make it more professional and maintainable.
+  * **Topics:**
+      * **DRY (Don't Repeat Yourself):** The principle of reducing repetition in your code.
+      * **Code Review:** Learn to look at your own code critically.
+  * **Tasks:**
+    1.  Review all your HTML, CSS (Tailwind classes), and JavaScript.
+    2.  Are there sections you repeated on multiple pages? Can you make your class lists cleaner?
+    3.  Add comments to your JavaScript to explain the logic.
+    4.  Ensure consistent formatting and indentation. Use Prettier to automate this.
+  * **Learning Resources:**
+      * Read articles on the "DRY principle" and "code refactoring for beginners."
+
+-----
+
+### **Day 7: Deployment & Review**
+
+  * **Today's Goal:** Put your project on the live internet for anyone to see.
+  * **Topics:**
+      * **Static Site Hosting:** Understand what it is and the popular platforms.
+      * **Deployment from GitHub:** Learn the seamless process of deploying directly from your repository.
+  * **Tasks:**
+    1.  Create an account on **Netlify** or **Vercel**.
+    2.  Connect your GitHub account and authorize it to access your portfolio repository.
+    3.  Follow the on-screen steps to deploy your site. You'll have a live URL in minutes\!
+    4.  **Final Polish:** Write a professional `README.md` file for your GitHub project. Explain what the project is, the technologies used, and include a link to the live site.
+  * **Learning Resources:**
+      * [Netlify Docs: Deploy from Git](https://www.google.com/search?q=https://docs.netlify.com/site-deploys/create-deploys/%23deploy-from-git)
+      * [Vercel Docs: Git Integration](https://www.google.com/search?q=https://vercel.com/docs/projects/git)
+
+Once you've completed this week, you'll be ready for **Week 2: React & Modern Frontend Tooling**. Let me know how it goes\!
